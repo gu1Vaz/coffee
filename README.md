@@ -3,6 +3,9 @@
 
 A webapp for buying and selling coffee, this being a project developed at the college
 
+The project contain:
+- Client and Backend developed in Laravel
+
 The webapp has:
 
 - user registration and login
