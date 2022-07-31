@@ -1,0 +1,63 @@
+.barraBusca{
+    width: 75%;
+}
+body{
+    background-color: white;
+}
+
+.barraBusca i{
+    color: burlywood;
+}
+h3{
+    color: burlywood;
+}
+.barraBusca input{
+    box-shadow: 0 0 0 0;
+    border: 0 none !important;
+    outline: 0;
+}
+
+.barraBusca input:hover{
+    box-shadow: 0 0 0 0;
+    border: 0 none !important;
+    outline: 0;
+}
+.divcafes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-flow: row wrap;
+
+}
+.cafe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+h5,h6{
+    color: #5A5A5A;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+
+}
+
+a{
+    cursor: pointer;
+}
+
+/*::placeholder {
+   font-family: "Nunito", sans-serif;
+   font-size: 14px;
+   color:   burlywood !important;
+}*/

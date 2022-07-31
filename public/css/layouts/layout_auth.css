@@ -1,0 +1,124 @@
+.User{
+    min-width: 20rem;
+    min-height: 30rem;
+ }
+ .Cart{
+     min-width: 20rem;
+     min-height: 30rem;
+     margin-right: 13% !important;
+     margin-top: -0.5% !important;
+  }
+ .Cart_items{
+      font-size: 16px;
+      padding: 10px;
+      max-height: 30rem;
+  }
+ 
+.Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:90.4vh;
+    background: url("../../imgs/fundo1.png") no-repeat fixed;
+    background-size: 100% 630px;
+}
+.divFormulario{
+    max-width: 53%;
+     max-height:89%;
+     min-width: 33%;
+     min-height: 86%;
+}
+.User{
+    min-width: 20rem;
+    min-height: 30rem;
+ }
+
+
+h3,h4,h5,h6{
+    color: #8a6234;
+    letter-spacing: 0.5px;
+    margin:0;
+  }
+
+body{
+      background-color: white;
+  }
+.Component{
+    background:white;
+    z-index: 1;
+    position: absolute;
+        width: 400px;
+        height: 500px;
+        left: 60%;
+        top:10%;
+}
+.botoesNav a{
+    color: #737373;
+}
+.whitesmk{
+    background-color: #f1f2f3;
+}
+
+.btnBar{
+    height: 25px !important;
+}
+.btnBar i{
+    font-size: 12px;
+}
+
+.alertaSucesso{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+    width: 301px;
+    height: 54px;
+    z-index: 1;
+    left: 77.7%;
+    top:8%;
+}
+/*snackbar*/
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

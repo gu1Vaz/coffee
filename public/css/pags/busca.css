@@ -1,0 +1,55 @@
+body{
+    background-color: white;
+}
+
+.divGeral{
+     width: 100%;
+     height:100vh;
+}
+.divItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    padding:2px;
+}
+
+a,h6{
+    color:#737373;
+}
+a:hover{
+    color: #737373;
+}
+.divItem img{
+    height:70px;
+    width:70px;
+    object-fit: cover;
+}
+h3{
+    color: #737373;
+    letter-spacing: 0.5px;
+  }
+h5{
+    color: #737373;
+    letter-spacing: 0.5px;
+}
+h6{
+    font-weight: bold;
+}
+sNb1{
+    color: #2F80ED;
+
+}
+sNb2{
+  color:#56CCF2;
+}
+
+.filtroOpcoes{
+ background-color: #f1f2f3;
+}
+.filtroOpcoes span{
+    color: #737373;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+   }
